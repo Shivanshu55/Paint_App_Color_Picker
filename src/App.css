@@ -1,0 +1,33 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+#master {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+button {
+  padding: 10px 30px;
+}
+
+.fix-box {
+  border: 2px solid black;
+  width: 35%;
+  height: 50vh;
+  margin: 10px;
+  background-color: rgb(227, 221, 221);
+}
